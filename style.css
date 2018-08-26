@@ -200,5 +200,16 @@ canvas {
     width: 150px;
     text-align: center
 }
+}
+
+@media only screen and (max-width: 990px) {
+
+
   
+#raccoonPrincipal{
+  width: 200px;
+  text-align: center
+}
+
+
   }
