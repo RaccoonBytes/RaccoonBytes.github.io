@@ -2,10 +2,16 @@ html body{
   margin: 0;
   background: #0b132b;
   font-family: 'Rubik', sans-serif;
-  font-family: 'Share Tech Mono', monospace;
+  /*font-family: 'Share Tech Mono', monospace;*/
 }
 html{
   background: #0b132b;
+}
+
+
+
+h1, h2, h3, h4{
+  font-family: 'Rubik', bold !important;
 }
 
 canvas {
@@ -105,8 +111,21 @@ canvas {
 
 
 
+.no-gutters{
+  width: 100%;
+  position: relative;
+  color: white;
+  background: rgba(0, 0, 0, 0.4);
+}
 
+.no-gutters i{
+  font-size: 170px;
+  color: #6fffe9;
+}
 
+.no-gutters p {
+  padding: 1px 15px;
+}
 
 .iconbox{
 	text-align: center;
@@ -126,6 +145,14 @@ canvas {
 	-o-transition: 0.5s ease 0s;
 	transition: 0.5s ease 0s;
 }
+
+.fa-spin-hover:hover {
+  animation: fa-spin 2s infinite linear;
+  
+}
+@-webkit-keyframes fa-spin{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}100%{-webkit-transform:rotate(359deg);transform:rotate(359deg)}}
+@keyframes fa-spin{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}100%{-webkit-transform:rotate(359deg);transform:rotate(359deg)}}
+
 .icon i{
 	font-size: 30px;
 	color: #6fffe9;
@@ -212,4 +239,13 @@ canvas {
 }
 
 
+  }
+
+
+
+  footer{
+    position: relative;
+    background: transparent;
+    color : #6fffe9 !important;
+    text-decoration-color: #6fffe9
   }
