@@ -1,0 +1,14 @@
+.iconsTec{
+    margin-bottom: 60px;
+}
+
+.iconsTec i{
+    font-size: 120px;
+    color : white;
+}
+
+.iconsTec i:hover{
+    
+    color : #6fffe9;
+} 
+
