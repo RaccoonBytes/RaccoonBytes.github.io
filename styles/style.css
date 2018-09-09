@@ -46,6 +46,10 @@ canvas {
 
 */
 
+.navbar-custom{
+  background: rgba(11, 19, 43, 0.8);
+}
+
 
 .cool-link {
   display: inline-block;
